@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تنظيف بالبخار | التوني كلين</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">التوني كلين</a>
+            <a href="services.html" class="btn btn-outline-secondary btn-sm">كل الخدمات</a>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-4">غسيل الكنب والسجاد بالبخار</h2>
+                <p class="lead text-muted">إزالة أصعب البقع والروائح الكريهة باستخدام تقنية البخار الحار التي تضمن التعقيم الكامل والحفاظ على جودة الأقمشة.</p>
+                
+                <div class="card border-0 bg-light p-3 mt-4">
+                    <h6><i class="fas fa-info-circle text-primary me-2"></i> مميزات الخدمة:</h6>
+                    <ul class="small mt-2">
+                        <li>تفتيت بقع الزيوت والقهوة المستعصية.</li>
+                        <li>تعقيم حراري يقتل البكتيريا وحشرات الفراش.</li>
+                        <li>تعطير مركز يدوم لأيام بعد التنظيف.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card border-0 shadow-lg p-4 rounded-4">
+                    <h4 class="fw-bold mb-4">بيانات حجز البخار</h4>
+                    
+                    <div id="successMsg" class="alert alert-success d-none mb-3">تم إرسال طلبك بنجاح!</div>
+                    
+                    <form id="steamForm">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">نوع القطع (كنب، سجاد، ستائر)</label>
+                            <input type="text" class="form-control" name="item_type" id="steamItemType" required placeholder="مثلاً: طقم كنب و 3 سجاد">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">العنوان</label>
+                            <input type="text" class="form-control border-primary" name="address" id="steamAddress" required placeholder="الحي او الشارع x">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">رقم الجوال:</label>
+                            <input type="tel" class="form-control" name="user_phone" id="steamPhone" required placeholder="05xxxxxxxx">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100 mt-2">إرسال الطلب</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center mt-5 pt-4 border-top">
+        <h4 class="mb-4 text-primary fw-bold">صور من أعمالنا بالبخار</h4>
+        <div class="row justify-content-center">
+            <div class="col-md-12 mb-4">
+                 <img src="img/steam-detail.jpg" class="img-fluid rounded-4 shadow" style="max-width: 80%;">
+            </div>
+            <div class="col-md-12 mb-4">
+                 <img src="img/steam-detail-2.jpg" class="img-fluid rounded-4 shadow" style="max-width: 80%;">
+            </div>
+
+        </div>
+    </div>
+
+    <a href="https://wa.me/966595077840" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
